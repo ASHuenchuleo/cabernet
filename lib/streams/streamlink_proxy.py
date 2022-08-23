@@ -165,7 +165,7 @@ class StreamlinkProxy(Stream):
         streamlink_command = ['streamlink',
             '--stdout',
             '--quiet',
-            '--hds-segment-threads', '2',
+            '--hls-segment-threads', '2',
             '--ffmpeg-fout', 'mpegts',
             '--hls-segment-attempts', '2',
             '--hls-segment-timeout', '5',
